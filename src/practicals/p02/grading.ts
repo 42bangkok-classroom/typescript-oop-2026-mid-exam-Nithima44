@@ -1,6 +1,6 @@
 // Write your code below
 const a = Number(process.argv[2]);
-if (a<0 || a>100 || !isNaN){
+if (a<0 || a>100 || isNaN(a)){
     console.log('Invalid input')
 }
 if (a>=0 && a<=49){
