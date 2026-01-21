@@ -14,7 +14,7 @@ const persons: Person[] = [
   { lastName: "NoName", age: 40 }
 ];
 
-function sortPersons(persons: Person[]): Person[] {
+export function sortPersons(persons: Person[]): Person[] {
   const filtered = persons.filter(person => 
       person.firstName?.trim() !== '' &&
       person.lastName?.trim() !== '' &&
